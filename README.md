@@ -321,19 +321,7 @@ Being honest about these is a strength in a viva.
 
 ---
 
-## 12. Viva questions
 
-1. Why PostgreSQL rather than MongoDB? *(ACID, relational integrity, JOINs.)*
-2. What exactly goes wrong if admission and bed-update aren't one transaction?
-3. Even with keyword filtering, why do you need a read-only DB user?
-4. Why does `doctor-load` use `COUNT(DISTINCT …)` and `LEFT JOIN`?
-5. What does a JWT contain, and why can the server trust it without a database lookup?
-6. Which normal form is the schema in, and where is a possible violation?
-7. How would you add the 5-second timeout, and where?
-8. Why show the generated SQL to the user instead of just the answer?
-9. What are the trade-offs of the audit log being written after the main commit?
-
----
 
 ## Tech stack
 PostgreSQL 16 · FastAPI · SQLAlchemy 2 · Pydantic 2 · python-jose · passlib/bcrypt · Groq (`llama-3.1-8b-instant`) · Streamlit · Plotly · Faker
