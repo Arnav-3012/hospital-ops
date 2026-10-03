@@ -1,0 +1,17 @@
+fastapi==0.111.0
+uvicorn==0.29.0
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.11
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.1
+groq
+faker==24.11.0
+pydantic==2.9.2
+pydantic-settings==2.5.2
+alembic==1.13.1
+streamlit==1.35.0
+plotly==5.22.0
+requests==2.31.0
+pandas
+python-multipart
