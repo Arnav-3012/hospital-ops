@@ -2,7 +2,7 @@
 
 A hospital back-office platform: a PostgreSQL database, a FastAPI service on top of it, a Streamlit dashboard, and an **AI layer that turns plain English into SQL** ("which department has the most occupied beds?").
 
-> MBATech Data Science · Semester IV · NMIMS MPSTME, Mumbai
+> BTech Data Science · Semester IV · NMIMS MPSTME, Mumbai
 
 This README does two jobs: it tells you **how to run** the project, and it explains **how it works and why** it was built this way, so you can read the code, defend the design in a viva, or extend it.
 
